@@ -4,10 +4,16 @@
 
 ## To implement this code, you must install the following libraries:
 
-```bash
+
 pip install opencv-python
 pip install dlib
-pip install face_recognition``` 
+pip install face_recognition
+
+## Note: The face_recognition library depends on the dlib library, which can sometimes be challenging to install due to its dependencies. Follow these steps:
+pip install cmake
+# Install Visual Studio Build Tools from https://visualstudio.microsoft.com/downloads/
+# Install Boost from https://www.boost.org/
+pip install dlib
 
 ## Test:
 
