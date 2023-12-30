@@ -2,19 +2,19 @@
 
 ## Face.py
 
-#To implement this code, you must install the following libraries:
+# To implement this code, you must install the following libraries:
 
+- `pip install opencv-python`
+- `pip install dlib`
+- `pip install face_recognition`
 
--pip install opencv-python
--pip install dlib
--pip install face_recognition
+*Note: The `face_recognition` library depends on the `dlib` library, which can sometimes be challenging to install due to its dependencies. Follow these steps:*
 
+- `pip install cmake`
+- *Install Visual Studio Build Tools from [Visual Studio](https://visualstudio.microsoft.com/downloads/)*
+- *Install Boost from [Boost](https://www.boost.org/)*
+- `pip install dlib`
 
-/* Note: The face_recognition library depends on the dlib library, which can sometimes be challenging to install due to its dependencies. Follow these steps: */
--pip install cmake
-//Install Visual Studio Build Tools from *https://visualstudio.microsoft.com/downloads/*
-//Install Boost from *https://www.boost.org/*
--pip install dlib
 
 ## Test:
 
@@ -34,6 +34,8 @@
 
 5- It detects a person's face, but it doesn't match the photo
 ![alert](https://github.com/Myriam2907/face_recognition_Person_Cat/assets/103574142/233b1e01-8736-4c06-893d-769a30104f4d)
+
+## Cat Face Detection System (from an image)
 
 ## Cat.py 
 1- It detects the cat's faces but does not detect human faces, puppy face, or cat with a skin care mask filter
